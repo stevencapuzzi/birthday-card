@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <marquee id="UNICRON" behavior="" direction="right" scrollamount="25">
+ 
+                <img src="https://i.imgur.com/vp0U8zo.gif" alt="UNICOOOORN!!!" /></marquee>
+                <h1> Cumpleaños Samantha</h1>
+                </div>
+    
+</body>
+</html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#UNICRON {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #041c34;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+color: pink;
+position: absolute;
+}
+
+.cloud {
+  z-index: 1;
+  position: absolute;
+  stroke: #000;
+  stroke-width: 10;
+  fill: #fff;
+  z-index: 100;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  border: 10px solid #908;
+  padding: 50px;
+  border-radius: 50%;
+  height: 400px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.container::after {
+  background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-45deg);
+  height: 100%;
+  width: 251px;
+  top: 88px;
+  left: 168px;
+}</style>
