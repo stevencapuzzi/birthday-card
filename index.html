@@ -27,7 +27,6 @@
                       <div id="merrywrap" class="merrywrap">
                         <div class="giftbox">
                           <div class="cover">
-                              <img width="250px" src="https://secure.aspca.org/files/aspca/p2p-campaign-images/user-1544571/pink-birthday-present-clipart-present-clip-art-217.jpg" />
                             <div></div>
                           </div>
                           <div class="box"></div>
@@ -80,7 +79,7 @@
 
 #UNICRON {
   position: relative;
-  width: 50%;
+  width: 100%;
   left: 0;
 }
 
@@ -111,6 +110,17 @@ display: inline-block;
 </style>
 
 <script>
+/*
+Everybody say Happy Birthday! This gift is a compound of various pens plus some other things I added
+- gift 
+https://codepen.io/ElaineXu/pen/EWvGWX
+- neon 
+https://codepen.io/markheggan/pen/LjrVYN
+- fireworks 
+https://codepen.io/chuongdang/pen/yzpDG
+- moon 
+https://codepen.io/agelber/pen/sjIKp
+*/
 window.requestAnimFrame = ( function() {
 	return window.requestAnimationFrame ||
 				window.webkitRequestAnimationFrame ||
@@ -365,14 +375,15 @@ window.onload=function(){
   var merrywrap=document.getElementById("merrywrap");
   var box=merrywrap.getElementsByClassName("giftbox")[0];
   var step=1;
-  var stepMinutes=[2000,2000,1000,1000];
+  var stepMinutes=[500,500,500,500];
   function init(){
-          box.addEventListener("click",openBox,false);
+          openBox();
   }
   function stepClass(step){
     merrywrap.className='merrywrap';
     merrywrap.className='merrywrap step-'+step;
   }
+
   function openBox(){
     if(step===1){
       box.removeEventListener("click",openBox,false); 
