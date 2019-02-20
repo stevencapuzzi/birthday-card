@@ -7,7 +7,7 @@ html, body, .container {
 }
 
 body {
-	background: rgb(238, 68, 156);
+	background: #ec3398;
 	overflow: hidden;
   background-image:  #041c34;
 }
@@ -27,7 +27,7 @@ canvas#canvas {
   left: 0px;
   bottom: 0px;
   top: 0px;
-  background-color: #d44;
+  background-color: #ec3398;
   transition: background-color .5s ease;
 }
 .giftbox{
