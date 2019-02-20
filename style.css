@@ -326,9 +326,9 @@ canvas#canvas {
 .moon {
   position: absolute;
   top: 10%;
-  right: 200px;
-  width: 100px;
-  height: 100px;
+  right: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background: #ddd;
   box-shadow: inset 20px -10px 0 0 #b9b9b9;
