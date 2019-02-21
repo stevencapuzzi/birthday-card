@@ -12,7 +12,6 @@ body {
   background-image:  #041c34;
 }
 
-div#beach,
 canvas#canvas {
 	position: absolute;
 	top: 0;
@@ -21,6 +20,10 @@ canvas#canvas {
   height: 100%;
 }
 
+.info{
+  bottom: 20%;
+  left: 40%;
+}
 .merrywrap{
   position: absolute;
   right: 0px;
